@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import AboutMe from "./components/Aboutme";
+// import AboutMe from "./components/Aboutme";
 import FooterPage from "./components/Footer";
 import Home from "./components/Home";
 import NavbarPage from "./components/Navbar";
-import Portfolio from "./components/Portfoilio";
+// import Portfolio from "./components/Portfoilio";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Home />
       <FooterPage />
       <NavbarPage />
-      <AboutMe />
-      <Portfolio />
+      {/* <AboutMe />
+      <Portfolio /> */}
     </div>
   );
 }

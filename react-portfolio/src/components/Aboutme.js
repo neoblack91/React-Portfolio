@@ -1,8 +1,8 @@
-import React from "react";
-import HelloBootstrap from "./components/HelloBootstrap";
+// import React from "react";
+// // import HelloBootstrap from "./components/HelloBootstrap";
 
-function AboutMe() {
-  return <HelloBootstrap />;
-}
+// function AboutMe() {
+//   // return <HelloBootstrap />;
+// }
 
-export default AboutMe;
+// export default AboutMe;
