@@ -23,7 +23,7 @@ function Home() {
             >
               <MDBCol className="py-5">
                 <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">
-                  This is my awesome portfolio!!
+                  This is my awesome Portfolio!!
                 </MDBCardTitle>
                 <p className="mx-5 mb-5">
                   Welcome to my portfolio, click on the differnet navbar
