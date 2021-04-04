@@ -1,8 +1,8 @@
 import React from "react";
 import HelloBootstrap from "./components/HelloBootstrap";
 
-function App() {
+function Portfolio() {
   return <HelloBootstrap />;
 }
 
-export default App;
+export default Portfolio;
