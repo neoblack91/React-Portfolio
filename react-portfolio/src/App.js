@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-// import AboutMe from "./components/Aboutme";
+import AboutMe from "./components/Aboutme";
 import FooterPage from "./components/Footer";
 import Home from "./components/Home";
 import NavbarPage from "./components/Navbar";
@@ -19,7 +19,7 @@ class App extends Component {
       <Wrapper>
         <NavbarPage />
         <Home />
-        {/* <AboutMe /> */}
+        <AboutMe />
         <Title>My Portfolio</Title>
         {this.state.Project.map((Projects) => (
           <Portfolio

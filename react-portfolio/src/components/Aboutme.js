@@ -1,10 +1,10 @@
-import {
-  MDBCarousel,
-  MDBCarouselInner,
-  MDBCarouselItem,
-  MDBContainer,
-  MDBView,
-} from "mdbreact";
+// import {
+//   MDBCarousel,
+//   MDBCarouselInner,
+//   MDBCarouselItem,
+//   MDBContainer,
+//   MDBView,
+// } from "mdbreact";
 import React from "react";
 
 function AboutMe() {

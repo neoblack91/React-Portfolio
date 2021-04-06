@@ -3,20 +3,76 @@
     {
       "id": 1,
       "name": "Password Generator",
-      "image": "images/passwordgenerator.png",
-      "decription": "Do you need help creating a random password? Well this is the app for you. This app can create any password with any symbol, letter or number up to 256 letters.If you want to see the code and use the app yourself the buttons are below.",
+      "image": "/images/passwordgenerator.png",
+      "decription": "Do you need help creating a random password? Well this is the app for you. This app can create any password with any symbol, letter or number up to 256 letters. If you want to see the code and use the app yourself the buttons are below.",
       "languages": "HTML, CSS and Javascript",
       "link": "https://neoblack91.github.io/password-generator-/"
       
     },
     {
-      "id": 1,
-      "name": "Password Generator",
-      "image": "images/passwordgenerator.png",
-      "decription": "Do you need help creating a random password? Well this is the app for you. This app can create any password with any symbol, letter or number up to 256 letters.",
+      "id": 6,
+      "name": "Coding-Quiz",
+      "image": "",
+      "decription": "This a quiz  to help people learn some coding language context",
+      "languages": "HTML, Javascript, CSS",
+      "link": "https://neoblack91.github.io/Coding-Quiz/"
+      
+    },
+    {
+      "id": 2,
+      "name": "Day Planner",
+      "image": "images/Dayplanner.png",
+      "decription": "Do you need help organizing you day? Well this is the app for you. This planner can plan your day to day life by typing in a few plans and it color coordniate to the right time. The time shows the right color for the past, present and future events. If you want to see the code and use the app yourself the buttons are below.",
       "languages": "HTML, CSS and Javascript",
-      "link": "https://neoblack91.github.io/password-generator-/"
+      "link": "https://neoblack91.github.io/DayPlanner/"
+      
+    },
+    {
+      "id": 3,
+      "name": "Note Taker",
+      "image": "images/note taker.png",
+      "decription": "Do you random thoughts in your head? Well this is the app for you. This app can help gather your thought for different ideas. If you want to see the code and use the app yourself the buttons are below.",
+      "languages": "HTML, CSS and Javascript",
+      "link": "https://vast-falls-25965.herokuapp.com/"
+      
+    },
+    {
+      "id": 4,
+      "name": "iSeePets (Project1)",
+      "image": "images/iSeePets1.png",
+      "decription": "Are you looking for the right special pet for you? Well if so, come use this app to help you find the perfect pet for you in your area. This app uses the google map and petfinder API to help locate different species of pet for your liking.",
+      "languages": "HTML, CSS and Javascript, Google and Petfinder API Photoshop",
+      "link": "https://streamingturtles.github.io/iSeePets/index.html"
+      
+    },
+    {
+      "id": 5,
+      "name": "Team Profile Generator",
+      "image": "images/teamprofile.png",
+      "decription": "Are you trying to create a team for your manager? Well this is the app for you. This app can create your full team for your manager and display and website for it. If you want to see the code and use the app yourself the buttons are below.",
+      "languages": "HTML and Javascript",
+      "link": "https://github.com/neoblack91/Team-Profile-Generator"
+      
+    },
+    {
+      "id": 5,
+      "name": "Workout Tracker",
+      "image": "",
+      "decription": "Are you trying to Workout? Well this is the app for you. This app can help you tracker your workout performance. It has a chart to show you that you are getting better everyday. If you want to see the code and use the app yourself the buttons are below.",
+      "languages": "HTML, Javascript, CSS Mongodb",
+      "link": "https://protected-bayou-60395.herokuapp.com/?id=605185dac716820015deaf9d"
+      
+    },
+    {
+      "id": 6,
+      "name": "Progressive Budget",
+      "image": "",
+      "decription": "Do you end spending too much money on amazon shopping and need help budgeting your money? Well this is the app for you. This app can help you tracker your spending habits. It has a calculates your spending habits even when you offline camping somewhere. If you want to see the code and use the app yourself the buttons are below.",
+      "languages": "HTML, Javascript, CSS, Mongodb",
+      "link": "https://morning-taiga-69555.herokuapp.com/"
       
     }
     
+    
   ]
+  
