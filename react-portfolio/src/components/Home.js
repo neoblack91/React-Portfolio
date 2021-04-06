@@ -1,12 +1,12 @@
-import {
-  MDBJumbotron,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBCardTitle,
-  MDBBtn,
-  MDBIcon,
-} from "mdbreact";
+// import {
+//   MDBJumbotron,
+//   MDBContainer,
+//   MDBRow,
+//   MDBCol,
+//   MDBCardTitle,
+//   MDBBtn,
+//   MDBIcon,
+// } from "mdbreact";
 import React from "react";
 
 function Home() {
