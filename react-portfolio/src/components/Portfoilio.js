@@ -12,16 +12,26 @@ function Portfolio(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Decription:</strong> {props.decription}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Languages:</strong> {props.languages}
           </li>
+          <button
+            type="button"
+            class="btn btn-primary active"
+            onClick={props.link}
+          >
+            Github
+          </button>
+          {/* <a className="nav-link active" href={props.link}>
+            Link
+          </a> */}
+          {/* <li>
+            <strong>Link:</strong> {props.link}
+          </li> */}
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span>
     </div>
   );
 }

@@ -9,46 +9,21 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <MDBContainer>
-      <MDBCarousel
-        activeItem={1}
-        length={3}
-        showControls={true}
-        showIndicators={false}
-        className="z-depth-1"
-        slide
-      >
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg"
-                alt="First slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(46).jpg"
-                alt="Second slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(47).jpg"
-                alt="Third slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-        </MDBCarouselInner>
-      </MDBCarousel>
-    </MDBContainer>
+    <div
+    // class="bg-image card shadow-1-strong"
+    // style="
+    //       background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.jpg');
+    //       "
+    >
+      <div class="card-body text-white">
+        <h5 class="card-title">Rajahni Fields</h5>
+        <p class="card-text">
+          My name is Rajahni fields, I am a up and coming web developer, and
+          game developer. I starting coding to learn how to be a web developer,
+          get into the IT field and become a better game developer.
+        </p>
+      </div>
+    </div>
   );
 }
 
