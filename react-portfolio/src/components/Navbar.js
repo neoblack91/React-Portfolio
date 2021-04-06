@@ -1,64 +1,54 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import {
   MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarNav,
-  MDBNavItem,
-  MDBNavLink,
-  MDBNavbarToggler,
-  MDBCollapse,
+  MDBContainer,
   MDBIcon,
-} from "mdbreact";
-import { BrowserRouter as Router } from "react-router-dom";
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBNavbarBrand,
+  MDBCollapse,
+} from "mdb-react-ui-kit";
 
-class NavbarPage extends Component {
-  state = {
-    isOpen: false,
-  };
+export default function App() {
+  const [showNavColorSecond, setShowNavColorSecond] = useState(false);
 
-  toggleCollapse = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
-
-  render() {
-    return (
-      <Router>
-        <MDBNavbar color="default-color" dark expand="md">
-          <MDBNavbarBrand>
-            <strong className="white-text">Navbar</strong>
-          </MDBNavbarBrand>
-          <MDBNavbarToggler onClick={this.toggleCollapse} />
-          <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav left>
-              <MDBNavItem active>
-                <MDBNavLink to="#!">Home</MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBNavLink to="#!">About Me</MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBNavLink to="#!">Portfolio</MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem></MDBNavItem>
-            </MDBNavbarNav>
-            <MDBNavbarNav right>
-              <MDBNavItem>
-                <MDBNavLink className="waves-effect waves-light" to="#!">
-                  <MDBIcon fab icon="Linkeden" />
-                </MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBNavLink className="waves-effect waves-light" to="#!">
-                  <MDBIcon fab icon="Github" />
-                </MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem></MDBNavItem>
+  return (
+    <>
+      <MDBNavbar expand="lg" dark bgColor="dark">
+        <MDBContainer fluid>
+          <MDBNavbarBrand href="#">Navbar</MDBNavbarBrand>
+          <MDBNavbarToggler
+            type="button"
+            data-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onClick={() => setShowNavColorSecond(!showNavColorSecond)}
+          >
+            <MDBIcon icon="bars" fas />
+          </MDBNavbarToggler>
+          <MDBCollapse show={showNavColorSecond} navbar id="navbarColor02">
+            <MDBNavbarNav className="me-auto mb-2 mb-lg-0">
+              <MDBNavbarItem className="active">
+                <MDBNavbarLink aria-current="page" href="#">
+                  Home
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="#">Features</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="#">Pricing</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="#">About</MDBNavbarLink>
+              </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
-        </MDBNavbar>
-      </Router>
-    );
-  }
+        </MDBContainer>
+      </MDBNavbar>
+    </>
+  );
 }
-
-export default NavbarPage;

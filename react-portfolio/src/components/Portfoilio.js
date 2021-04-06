@@ -1,8 +1,5 @@
-// import React from "react";
-// import HelloBootstrap from "./components/HelloBootstrap";
+import React from "react";
 
-// function Portfolio() {
-//   return <HelloBootstrap />;
-// }
+function Portfolio() {}
 
-// export default Portfolio;
+export default Portfolio;

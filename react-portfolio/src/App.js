@@ -9,9 +9,9 @@ import NavbarPage from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
       <FooterPage />
-      <NavbarPage />
+      {/* <NavbarPage /> */}
       {/* <AboutMe />
       <Portfolio /> */}
     </div>
