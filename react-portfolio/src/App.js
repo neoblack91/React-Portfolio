@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import NavbarPage from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import Portfolio from "./components/Portfoilio";
+import Portfolio from "./components/Portfolio";
 import Project from "./Project.json";
 
 class App extends Component {
@@ -15,6 +15,7 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state);
     return (
       <Wrapper>
         <NavbarPage />

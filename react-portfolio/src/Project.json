@@ -3,14 +3,14 @@
     {
       "id": 1,
       "name": "Password Generator",
-      "image": "/images/passwordgenerator.png",
+      "image": "./images/passwordgenerator.png",
       "decription": "Do you need help creating a random password? Well this is the app for you. This app can create any password with any symbol, letter or number up to 256 letters. If you want to see the code and use the app yourself the buttons are below.",
       "languages": "HTML, CSS and Javascript",
       "link": "https://neoblack91.github.io/password-generator-/"
       
     },
     {
-      "id": 6,
+      "id": 2,
       "name": "Coding-Quiz",
       "image": "",
       "decription": "This a quiz  to help people learn some coding language context",
@@ -19,7 +19,7 @@
       
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Day Planner",
       "image": "images/Dayplanner.png",
       "decription": "Do you need help organizing you day? Well this is the app for you. This planner can plan your day to day life by typing in a few plans and it color coordniate to the right time. The time shows the right color for the past, present and future events. If you want to see the code and use the app yourself the buttons are below.",
