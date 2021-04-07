@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+// import "./App.css";
 import AboutMe from "./components/Aboutme";
 import FooterPage from "./components/Footer";
 import Home from "./components/Home";
@@ -7,7 +7,7 @@ import NavbarPage from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Portfolio from "./components/Portfolio";
-import Project from "./Project.json";
+import Project from "./Project";
 
 class App extends Component {
   state = {

@@ -1,0 +1,25 @@
+.card {
+}
+
+.card > .img-container {
+  height: 30%;
+  overflow: hidden;
+  text-align: center;
+  background: #6caddc;
+}
+.card > .img-container > img {
+  width: 60%;
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+}
