@@ -1,10 +1,3 @@
-// import {
-//   MDBCarousel,
-//   MDBCarouselInner,
-//   MDBCarouselItem,
-//   MDBContainer,
-//   MDBView,
-// } from "mdbreact";
 import React from "react";
 
 function AboutMe() {
@@ -12,8 +5,8 @@ function AboutMe() {
     <div
     // class="bg-image card shadow-1-strong"
     // style="
-    //       background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.jpg');
-    //       "
+    //     background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.jpg');
+    //     "
     >
       <div class="card-body text-white">
         <h5 class="card-title">Rajahni Fields</h5>
