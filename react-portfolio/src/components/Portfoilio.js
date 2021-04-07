@@ -1,5 +1,4 @@
 import React from "react";
-// import image from "../images";
 
 function Portfolio(props) {
   return (
