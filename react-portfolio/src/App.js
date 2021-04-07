@@ -29,7 +29,8 @@ class App extends Component {
             name={Projects.name}
             image={Projects.image}
             decription={Projects.decription}
-            link={Projects.link}
+            linkgit={Projects.linkgit}
+            linkapp={Projects.linkapp}
             languages={Projects.languages}
           />
         ))}
