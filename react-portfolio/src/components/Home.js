@@ -12,10 +12,10 @@ import React from "react";
 function Home() {
   return (
     <div
-    className="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
-    style={{
-      "background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.jpg')"
-    }}
+    //  className="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+    // style={{
+    //   "background-image:/image/downtownatl.png "
+    // }}
     >
       <h1 class="mb-3 h2 center">WELCOME</h1>
 
