@@ -1,5 +1,5 @@
 import React from "react";
-import atl from "../images/facebook.png";
+import atl from "../images/Think-Egypt-Giza-Sphynx-178375366-pius99-copy.jpg";
 function Home() {
   return (
     // <div style={{ backgroundImage: `url(${atl})` }}>
@@ -12,7 +12,7 @@ function Home() {
     // </div>
     // <div class="container py-5">
     <div class="jumbotron text-white jumbotron-image shadow">
-      <div style={{ backgroundimage: `url(${atl})` }}>
+      <div style={{ backgroundimage: `url${atl}` }}>
         <>
           <h2 class="mb-4">WELCOME</h2>
           <p class="mb-4">

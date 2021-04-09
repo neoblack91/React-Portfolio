@@ -1,14 +1,11 @@
-.card {
-}
-
 .card > .img-container {
-  height: 30%;
+  height: 60%;
   overflow: hidden;
   text-align: center;
   background: #6caddc;
 }
 .card > .img-container > img {
-  width: 60%;
+  width: 100%;
 }
 
 .card > .content {
@@ -22,4 +19,12 @@
 
 .card > .content > ul > li {
   margin-top: 18px;
+}
+
+.col-md-4 {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
 }
