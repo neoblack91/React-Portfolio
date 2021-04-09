@@ -44,25 +44,18 @@ const NavbarPage = () => {
             {/* <a className="nav-link" href="#">
               Resume
             </a> */}
-            <ul className="navbar-nav d-flex flex-row">
-              <li className="nav-item me-3 me-lg-0">
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
-                  href="https://github.com/neoblack91"
-                >
-                  <i className="fab fa-github"></i>
+            <ul class="navbar-nav d-flex flex-row reverse">
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://github.com/neoblack91">
+                  <i class="fab fa-github"></i>
                 </a>
               </li>
-              <li className="nav-item me-3 me-lg-0">
+              <li class="nav-item me-3 me-lg-0">
                 <a
-                  target="_blank"
-                  rel="noreferrer"
-                  className="nav-link"
+                  class="nav-link"
                   href="https://www.linkedin.com/in/rajahni-fields"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <i class="fab fa-linkedin"></i>
                 </a>
               </li>
             </ul>
