@@ -8,7 +8,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Portfolio from "./components/Portfolio";
 import Project from "./Project";
-
+import "./App.css";
 class App extends Component {
   state = {
     Project,

@@ -1,25 +1,32 @@
-.card {
+.wholeCard {
+  max-width: 1240px;
+  /* line 66 */
 }
-
-.card > .img-container {
-  height: 30%;
-  overflow: hidden;
+.imageStyling {
+  padding-top: 80px;
+  padding-right: 35px;
+  height: 300px;
+  width: 290px;
+  /* line 71 */
+}
+.card-title {
+  text-decoration: underline;
+  /* line 80 */
+}
+.cardCenter {
   text-align: center;
-  background: #6caddc;
+  /* line 98 */
 }
-.card > .img-container > img {
-  width: 60%;
+.mb-3 {
+  border: solid white 5px;
 }
-
-.card > .content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 15px;
+h5 {
+  text-shadow: 4px 4px 4px #ffe66e;
+  font-size: x-large;
 }
-.card > .content > ul {
-  list-style-type: none;
+.marginRight {
+  margin-right: 3px;
 }
-
-.card > .content > ul > li {
-  margin-top: 18px;
+.marginLeft {
+  margin-left: 3px;
 }
