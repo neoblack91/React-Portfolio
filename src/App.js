@@ -1,42 +1,34 @@
-import React, { Component } from "react";
-// import "./App.css";
-import AboutMe from "./components/Aboutme";
-import FooterPage from "./components/Footer";
-import Home from "./components/Home";
-import NavbarPage from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import Portfolio from "./components/Portfolio";
-import Project from "./Project";
-import "./App.css";
-class App extends Component {
-  state = {
-    Project,
-  };
+import React, { useEffect } from 'react'
+import Particles from './components/layouts/Particles'
+import Header from './components/pages/Header'
+import About from './components/pages/About'
+import Works from './components/pages/Works'
+import Contact from './components/pages/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { animation } from './profile'
 
-  render() {
-    console.log(this.state);
-    return (
-      <Wrapper>
-        <NavbarPage />
-        <Home />
-        <AboutMe />
-        <Title>My Portfolio</Title>
-        {this.state.Project.map((Projects) => (
-          <Portfolio
-            id={Projects.id}
-            key={Projects.id}
-            name={Projects.name}
-            image={Projects.image}
-            decription={Projects.decription}
-            linkgit={Projects.linkgit}
-            linkapp={Projects.linkapp}
-            languages={Projects.languages}
-          />
-        ))}
-        <FooterPage />
-      </Wrapper>
-    );
-  }
+
+function App() {
+
+  useEffect(() => {
+      AOS.init({
+        duration: animation.duration,
+        once: animation.once,
+        disable: !animation.animate
+      })
+// eslint-disable-next-line
+  }, [])
+
+  return (
+    <div className="App">
+      <Header />
+      <Particles />
+      <About />
+      <Works />
+      <Contact />
+    </div>
+  );
 }
+
 export default App;
