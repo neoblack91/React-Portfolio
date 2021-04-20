@@ -1,32 +1,53 @@
 /* Add your profile image here */
 .Photo {
-  background-image: url("https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../images/rajahniphoto.jpg");
 }
 /* Projects Photo */
 .project1 {
-  background-image: "public/images/passwordgenerator.png";
+  background-image: url("../images/passwordgenerator.png");
   cursor: none;
 }
 .project2 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+two");
+  background-image: url("../images/quiz.png");
   cursor: none;
 }
 .project3 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+three");
+  background-image: url("../images/Dayplanner.png");
   cursor: none;
 }
 .project4 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+four");
+  background-image: url("../images/notetaker.png");
   cursor: none;
 }
 .project5 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+five");
+  background-image: url("../images/BurgerTown.png");
   cursor: none;
 }
 .project6 {
-  background-image: url("https://via.placeholder.com/400x600.png?text=Project+six");
+  background-image: url("../images/iSeePets1.png");
   cursor: none;
 }
+.project7 {
+  background-image: url("../images/budget.png");
+  cursor: none;
+}
+.project8 {
+  background-image: url("../images/teamprofile.png");
+  cursor: none;
+}
+.project9 {
+  background-image: url("../images/fitnesstracker.png");
+  cursor: none;
+}
+.project10 {
+  background-image: url("../images/userdirectory.png");
+  cursor: none;
+}
+.project11 {
+  background-image: url("");
+  cursor: none;
+}
+
 /* Miscelaneous Activities photo */
 /* .misc1 {
   background-image: url("https://via.placeholder.com/400x600.png?text=Miscellaneous+one");

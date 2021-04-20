@@ -135,6 +135,13 @@ const projects = [
     skills: ["HTML, CSS, JS, Mongodb"],
     url: "https://github.com/neoblack91/User-Directory",
   },
+  {
+    // Add image in './styles/images.css' in #project6
+    id: "project11",
+    name: "Google Book Search",
+    skills: ["HTML, CSS, JS, React"],
+    url: "https://github.com/neoblack91/React-Google-Books-Search",
+  },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
@@ -176,7 +183,7 @@ const social = {
   github: "https://github.com",
   facebook: "https://facebook.com",
   linkedin: "https://linkedin.com",
-  instagram: "https://instagram.com",
+  instagram: "",
   resume: "https://novoresume.com/",
 };
 // Dont change anything here
