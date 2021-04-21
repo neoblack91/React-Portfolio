@@ -68,7 +68,7 @@ const projects = [
     id: "project1",
     name: "Password Generator",
     skills: ["HTML, CSS, JS"],
-    // git: "https://github.com/kaustubhai",
+    deploy: "https://neoblack91.github.io/password-generator-/",
     url: "https://github.com/neoblack91/password-generator-",
   },
   {
@@ -76,20 +76,23 @@ const projects = [
     id: "project2",
     name: "Coding-Quiz",
     skills: ["HTML, CSS, JS"],
-    url: "https://neoblack91.github.io/Coding-Quiz/",
+    deploy: "https://neoblack91.github.io/Coding-Quiz/",
+    url: "https://github.com/neoblack91/Coding-Quiz",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
     name: "Day Planner",
     skills: ["HTML, CSS, JS"],
-    url: "https://neoblack91.github.io/DayPlanner/",
+    deploy: "https://neoblack91.github.io/DayPlanner/",
+    url: "https://github.com/neoblack91/DayPlanner",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
     name: "Note Taker",
     skills: ["HTML, CSS, JS"],
+    deploy: "https://vast-falls-25965.herokuapp.com/",
     url: "https://github.com/neoblack91/Note-Taker",
   },
   {
@@ -97,6 +100,7 @@ const projects = [
     id: "project5",
     name: "Burger Town",
     skills: ["HTML, CSS, JS"],
+    deploy: "https://sleepy-headland-97443.herokuapp.com/",
     url: "https://github.com/neoblack91/burger",
   },
   {
@@ -104,6 +108,7 @@ const projects = [
     id: "project6",
     name: "iSeePets (Project1)",
     skills: ["HTML, CSS, JS"],
+    deploy: "https://streamingturtles.github.io/iSeePets/index.html",
     url: "https://github.com/neoblack91/iSeePets",
   },
 
@@ -112,6 +117,7 @@ const projects = [
     id: "project7",
     name: "Progressive Budget",
     skills: ["HTML, CSS, JS, Mongodb"],
+    deploy: "https://morning-taiga-69555.herokuapp.com/",
     url: "https://github.com/neoblack91/Progressive-Budget",
   },
   {
@@ -119,6 +125,7 @@ const projects = [
     id: "project8",
     name: "Team Profile Generator",
     skills: ["HTML, CSS, JS"],
+    deploy: "",
     url: "https://github.com/neoblack91/Team-Profile-Generator",
   },
   {
@@ -126,6 +133,8 @@ const projects = [
     id: "project9",
     name: "Workout Tracker",
     skills: ["HTML, CSS, JS, Mongodb"],
+    deploy:
+      "https://protected-bayou-60395.herokuapp.com/?id=605185dac716820015deaf9d",
     url: "https://github.com/neoblack91/workout-tracker",
   },
   {
@@ -133,6 +142,7 @@ const projects = [
     id: "project10",
     name: "User Directory",
     skills: ["HTML, CSS, JS, Mongodb"],
+    deploy: "https://neoblack91.github.io/User-Directory/",
     url: "https://github.com/neoblack91/User-Directory",
   },
   {
@@ -140,6 +150,7 @@ const projects = [
     id: "project11",
     name: "Google Book Search",
     skills: ["HTML, CSS, JS, React"],
+    deploy: "https://agile-lake-47503.herokuapp.com/",
     url: "https://github.com/neoblack91/React-Google-Books-Search",
   },
 ];
@@ -172,19 +183,19 @@ const projects = [
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
-  pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+  pitch: "If you like what you send me a quick email.",
+  copyright: "Rajahni Fields",
+  contactUrl: "kid101291@hotmail.com",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/neoblack91",
+  facebook: "",
+  linkedin: "www.linkedin.com/in/rajahni-fields",
   instagram: "",
-  resume: "https://novoresume.com/",
+  resume:
+    "https://docs.google.com/document/d/1dBrk5KRMCg2xIyV5z8cZChTMRJv9BXOiEW-OlaaIprY/edit",
 };
 // Dont change anything here
 export {
