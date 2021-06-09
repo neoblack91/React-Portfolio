@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    " My name is Rajahni fields, I am a up and coming web developer, and game developer. I starting coding to learn how to be a web developer,get into the IT field and become a better game developer.",
+    " My name is Rajahni fields, I am a up and coming web developer, and game developer. I starting coding to learn how to be a web developer, get into the IT field and become a better game developer. In my portfolio if you click on the picture you can try out the app and if you click on the name it will take you to the github. ",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
