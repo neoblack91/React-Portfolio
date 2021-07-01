@@ -150,7 +150,7 @@ const projects = [
     id: "project11",
     name: "Google Book Search",
     skills: ["HTML, CSS, JS, React"],
-    deploy: "https://agile-lake-47503.herokuapp.com/",
+    deploy: "https://red-zed-28394.herokuapp.com/",
     url: "https://github.com/neoblack91/React-Google-Books-Search",
   },
 ];
