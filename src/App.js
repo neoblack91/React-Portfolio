@@ -7,6 +7,7 @@ import Contact from './components/pages/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { animation } from './profile'
+import PorfilePic from './components/layouts/PorfilePic'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <div className="App">
       <Header />
       <Particles />
+      <PorfilePic />
       <About />
       <Works />
       <Contact />
